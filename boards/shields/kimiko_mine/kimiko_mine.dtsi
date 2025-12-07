@@ -1,4 +1,4 @@
-#include "kimiko_mine-layout.dtsi"
+#include "kimiko_mine-layouts.dtsi"
 
 / {
     default_kscan: kscan0 {
