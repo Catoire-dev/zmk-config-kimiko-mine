@@ -1,0 +1,17 @@
+file_format: "1"
+
+id: kimiko_mine
+
+name: kimiko_cca
+
+type: shield
+
+url: https://github.com/Catoire-dev/zmk-config-kimiko-mine
+
+features:
+  - keys
+  - studio
+
+siblings:
+  - kimiko_mine_left
+  - kimiko_mine_right

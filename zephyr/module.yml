@@ -1,3 +1,4 @@
+name: zmk-keyboard-kimiko_mine_module
 build:
   settings:
     board_root: .
