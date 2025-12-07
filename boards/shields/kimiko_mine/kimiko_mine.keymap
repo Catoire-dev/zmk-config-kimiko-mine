@@ -50,10 +50,10 @@
 
         special_character {
             bindings = <
-                                &kp F3          &kp F4          &kp F5          &kp F6                                      &kp F7          &kp F8          &kp F9          &kp F10         &kp F11             &kp F12
-&kp F1          &kp F2          &trans          &trans          &trans          &trans                                      &trans          &kp PG_UP       &kp UP          &kp LBKT        &kp RBKT            &trans
-&kp GRAVE       &trans          &trans          &trans          &trans          &trans                      &trans          &kp LEFT        &kp DOWN        &kp RIGHT       &php_array_arrow    &kp BACKSPACE
-&trans          &trans          &trans          &trans          &trans          &trans      &trans          &kp C_VOL_UP    &kp C_MUTE      &kp PG_DOWN     &kp HOME        &kp END         &php_arrow          &kp ENTER
+                                &kp F3          &kp F4          &kp F5          &kp F6                                      &kp F7          &kp F8          &kp F9          &kp F10             &kp F11             &kp F12
+&kp F1          &kp F2          &trans          &trans          &trans          &trans                                      &trans          &kp PG_UP       &kp UP          &kp LBKT            &kp RBKT            &trans
+&kp GRAVE       &trans          &trans          &trans          &trans          &trans                      &trans          &kp LEFT        &kp DOWN        &kp RIGHT       &php_array_arrow    &kp BACKSPACE       &trans
+&trans          &trans          &trans          &trans          &trans          &trans      &trans          &kp C_VOL_UP    &kp C_MUTE      &kp PG_DOWN     &kp HOME        &kp END             &php_arrow          &kp ENTER
 &trans          &trans          &trans          &trans          &trans          &trans      &none           &kp C_VOL_DN    &kp C_PAUSE     &kp C_PREV      &kp C_NEXT      &studio_unlock
             >;
         };
@@ -63,7 +63,7 @@
                                 &trans          &trans          &trans          &bt BT_CLR_ALL                          &BT_SEL 0       &BT_SEL 1       &BT_SEL 2           &BT_SEL 3       &BT_SEL 4       &bt BT_DISC
 &bt BT_CLR      &trans          &trans          &trans          &trans          &trans                                  &bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2       &bt BT_DISC 3   &bt BT_DISC 4   &trans
 &trans          &trans          &trans          &trans          &trans          &trans                                  &trans          &bt BT_PRV      &trans              &bt BT_NXT      &trans          &trans
-&trans          &trans          &trans          &trans          &trans          &trans      &trans          &trans      0&trans          &trans          &trans              &trans          &trans          &trans
+&trans          &trans          &trans          &trans          &trans          &trans      &trans          &trans      &trans          &trans          &trans              &trans          &trans          &trans
 &trans          &trans          &none           &trans          &trans          &trans      &trans          &trans      &trans          &trans          &trans              &trans
             >;
         };
