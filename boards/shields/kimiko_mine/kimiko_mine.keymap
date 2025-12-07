@@ -52,7 +52,7 @@
         special_layer {
             display-name = "Special";
             bindings = <
-                                &kp C_VOL_UP    &kp C_MUTE    &kp NUMBER_4    &kp N5                                      &kp NUMBER_6    &kp N7          &kp N8          &kp N9          &kp N0              &kp MINUS
+                                &kp C_VOL_UP    &kp C_MUTE    &studio_unlock    &kp N5                                      &kp NUMBER_6    &kp N7          &kp N8          &kp N9          &kp N0              &kp MINUS
 &kp ESC         &kp NUMBER_1    &kp W           &kp E           &kp R           &kp T                                       &kp Y           &kp U           &kp I           &kp O           &kp P               &kp EQUAL
 &kp TAB         &kp Q           &kp S           &kp D           &kp F           &kp G                                       &kp H           &kp J           &kp K           &kp L           &kp SEMICOLON       &kp SQT
 &kp LEFT_SHIFT  &kp A           &kp X           &kp C           &kp V           &kp B       &kp DEL         &kp DEL         &kp N           &kp M           &kp COMMA       &kp PERIOD      &kp SLASH           &kp BACKSLASH
