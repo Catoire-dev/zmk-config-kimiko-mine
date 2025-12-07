@@ -1,7 +1,9 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+
 #include "kimiko_mine-layouts.dtsi"
 
 / {
-    default_kscan: kscan0 {
+    default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
 
@@ -12,7 +14,7 @@
                     <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 
-    default_transform: matrix_transform0 {
+    default_transform: matrix_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
         rows = <5>;
