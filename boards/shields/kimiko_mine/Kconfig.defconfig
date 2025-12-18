@@ -1,8 +1,8 @@
-if SHIELD_MINE_V1_LEFT
+if SHIELD_KIMIKO_MINE_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "mine_v1"
+    default "Kimoko Mine"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -10,7 +10,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif
 
 
-if SHIELD_MINE_V1_LEFT || SHIELD_MINE_V1_RIGHT
+if SHIELD_KIMIKO_MINE_LEFT || SHIELD_KIMIKO_MINE_RIGHT
 
 config ZMK_SPLIT
     default y

@@ -1,7 +1,7 @@
 # No whitespace after the comma or in your part name!
-config SHIELD_MINE_V1_LEFT
-    def_bool $(shields_list_contains,mine_v1_left)
+config SHIELD_KIMIKO_MINE_LEFT
+    def_bool $(shields_list_contains,kimiko_mine_left)
 
 # No whitespace after the comma or in your part name!
-config SHIELD_MINE_V1_RIGHT
-    def_bool $(shields_list_contains,mine_v1_right)
+config SHIELD_KIMIKO_MINE_RIGHT
+    def_bool $(shields_list_contains,kimiko_mine_right)
