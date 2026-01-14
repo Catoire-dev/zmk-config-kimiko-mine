@@ -52,11 +52,11 @@
         special_layer {
             display-name = "Special";
             bindings = <
-                                &kp F3          &kp F4          &kp F5          &kp F6                                      &kp F7      &kp F8          &kp F9          &kp F10         &kp F11             &kp F12
-&kp F1          &kp F2          &trans          &trans          &trans          &trans                                      &trans      &kp PG_UP       &kp UP          &kp LBKT        &kp RBKT            &trans
-&kp GRAVE       &trans          &trans          &trans          &trans          &trans                                      &trans      &kp LEFT        &kp DOWN        &kp RIGHT       &php_array_arrow    &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A           &kp X           &kp C           &kp V           &kp B       &trans          &kp C_VOL_UP    &kp C_MUTE  &kp PG_DN       &kp HOME        &kp END         &php_arrow          &kp ENTER
-&trans          &trans          &trans          &trans          &trans          &trans      &none           &kp C_VOL_DN    &kp C_PAUSE &kp C_PREV      &kp C_NEXT      &studio_unlock
+                                &kp F3          &kp F4          &kp F5          &kp F6                                          &kp F7      &kp F8          &kp F9          &kp F10         &kp F11             &kp F12
+&kp F1          &kp F2          &trans          &trans          &trans          &kp C_VOL_UP                                    &kp C_PAUSE &kp PG_UP       &kp UP          &kp LBKT        &kp RBKT            &trans
+&kp GRAVE       &trans          &trans          &trans          &trans          &kp C_VOLUME_DOWN                               &kp C_MUTE  &kp LEFT        &kp DOWN        &kp RIGHT       &php_array_arrow    &kp BACKSPACE
+&trans          &trans          &trans          &trans          &trans          &trans              &kp C_PREV      &kp C_NEXT  &trans      &kp PG_DN       &kp HOME        &kp END         &php_arrow          &kp ENTER
+&trans          &trans          &trans          &trans          &trans          &trans              &none           &mo 2       &trans      &trans          &trans          &studio_unlock
             >;
         };
 
