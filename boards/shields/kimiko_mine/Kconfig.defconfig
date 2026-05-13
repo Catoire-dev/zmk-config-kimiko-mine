@@ -2,7 +2,7 @@ if SHIELD_KIMIKO_MINE_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "Kimoko Mine"
+    default "Kimoko Mine travel"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
